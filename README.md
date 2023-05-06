@@ -71,6 +71,7 @@ kmeans.plot(X)
 # Generate GIF
 kmeans.create_gif(X)
 ```
+*Note: To view the GIF in motion, click on it to open in a separate window.*
 ![](images/kmeans.gif)
 
 ### k-means++
@@ -90,6 +91,7 @@ kmeanspp.plot(X)
 # Generate GIF
 kmeanspp.create_gif(X)
 ```
+*Note: To view the GIF in motion, click on it to open in a separate window.*
 ![](images/kmeans++.gif)
 
 ### k-medoids
@@ -109,6 +111,7 @@ kmedoids.plot(X)
 # Generate GIF
 kmedoids.create_gif(X)
 ```
+*Note: To view the GIF in motion, click on it to open in a separate window.*
 ![](images/kmedoids.gif)
 
 ### c-means
@@ -128,5 +131,6 @@ cmeans.plot(X)
 # Generate GIF
 cmeans.create_gif(X)
 ```
+*Note: To view the GIF in motion, click on it to open in a separate window.*
 ![](images/cmeans.gif)
 
