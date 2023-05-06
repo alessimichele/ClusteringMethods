@@ -38,7 +38,7 @@ from sklearn.datasets import make_blobs
 from Clustering import Clustering
 
 # Generate random data
-X, _ = make_blobs(n_samples=1000, centers=5, random_state=42)
+X, _ = make_blobs(n_samples=5000, centers=5, random_state=100, cluster_std=.8)
 
 # Create an instance of Clustering class
 clustering = Clustering(k=5)
@@ -65,7 +65,7 @@ kmeans.fit(X)
 # Plot the final partition of the data
 kmeans.plot(X)
 ```
-![](images/clustering_plot_kmeans.png)
+![](images/kmeans.png)
 
 ```
 # Generate GIF
@@ -84,13 +84,13 @@ kmeanspp.fit(X)
 # Plot the final partition of the data
 kmeanspp.plot(X)
 ```
-![](images/clustering_plot_kmeanspp.png)
+![](images/kmeans++.png)
 
 ```
 # Generate GIF
 kmeanspp.create_gif(X)
 ```
-![](images/kmeanspp.gif)
+![](images/kmeans++.gif)
 
 ### k-medoids
 ```
@@ -103,7 +103,7 @@ kmedoids.fit(X)
 # Plot the final partition of the data
 kmedoids.plot(X)
 ```
-![](images/clustering_plot_kmedoids.png)
+![](images/kmedoids.png)
 
 ```
 # Generate GIF
@@ -122,7 +122,7 @@ cmeans.fit(X)
 # Plot the final partition of the data
 cmeans.plot(X)
 ```
-![](images/clustering_plot_cmeans.png)
+![](images/cmeans.png)
 
 ```
 # Generate GIF
