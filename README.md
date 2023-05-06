@@ -38,7 +38,7 @@ from sklearn.datasets import make_blobs
 from ClusteringClass import Clustering
 
 # Generate random data
-X, _ = make_blobs(n_samples=1000, centers=5, random_state=42)
+X, _ = make_blobs(n_samples=5000, centers=5, random_state=100, cluster_std=.8)
 
 # Create an instance of Clustering class
 clustering = Clustering(k=5)
@@ -69,13 +69,14 @@ kmeans.fit(X)
 kmeans.plot(X)
 ```
 
-![](images/clustering_plot_kmeans.png)
+![](images/kmeans.png)
 
 ```
 # Generate GIF
 kmeans.create_gif(X)
 ```
 
+_Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/kmeans.gif)
 
 ### k-means++
@@ -91,14 +92,15 @@ kmeanspp.fit(X)
 kmeanspp.plot(X)
 ```
 
-![](images/clustering_plot_kmeanspp.png)
+![](images/kmeans++.png)
 
 ```
 # Generate GIF
 kmeanspp.create_gif(X)
 ```
 
-![](images/kmeanspp.gif)
+_Note: To view the GIF in motion, click on it to open in a separate window._
+![](images/kmeans++.gif)
 
 ### k-medoids
 
@@ -113,13 +115,14 @@ kmedoids.fit(X)
 kmedoids.plot(X)
 ```
 
-![](images/clustering_plot_kmedoids.png)
+![](images/kmedoids.png)
 
 ```
 # Generate GIF
 kmedoids.create_gif(X)
 ```
 
+_Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/kmedoids.gif)
 
 ### c-means
@@ -135,11 +138,14 @@ cmeans.fit(X)
 cmeans.plot(X)
 ```
 
-![](images/clustering_plot_cmeans.png)
+![](images/cmeans.png)
 
 ```
 # Generate GIF
 cmeans.create_gif(X)
 ```
+
+_Note: To view the GIF in motion, click on it to open in a separate window._
+![](images/cmeans.gif)
 
 ![](images/cmeans.gif)
