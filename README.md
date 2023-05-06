@@ -148,4 +148,3 @@ cmeans.create_gif(X)
 _Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/cmeans.gif)
 
-![](images/cmeans.gif)
