@@ -49,12 +49,84 @@ clustering.fit(X)
 # Print running time to fit
 clustering.time()
 ```
-`something `
-```
+`Running time: 0.0523 seconds `
 
-# Plot the scree test
-clustering.scree_test(X, k_max=15)
-```
-![Clustering Plot](images/clustering_plot.png "Clustering Plot")
+## Example
+You can also specify the algorithm variant to use when creating an instance of the Clustering class. 
 
-![](kmeans.gif)
+### k-means
+```
+# Create an instance of Clustering class with k=5 and use K-means algorithm
+kmeans = Clustering(k=5, algorithm_variant="kmeans")
+
+# Fit the data
+kmeans.fit(X)
+
+# Plot the final partition of the data
+kmeans.plot(X)
+```
+![](images/clustering_plot_kmeans.png)
+
+```
+# Generate GIF
+kmeans.create_gif(X)
+```
+![](images/kmeans.gif)
+
+### k-means++
+```
+# Create an instance of Clustering class with k=5 and use K-means++ algorithm
+kmeanspp = Clustering(k=5, algorithm_variant="kmeans++")
+
+# Fit the data
+kmeanspp.fit(X)
+
+# Plot the final partition of the data
+kmeanspp.plot(X)
+```
+![](images/clustering_plot_kmeanspp.png)
+
+```
+# Generate GIF
+kmeanspp.create_gif(X)
+```
+![](images/kmeanspp.gif)
+
+### k-medoids
+```
+# Create an instance of Clustering class with k=5 and use K-medoids algorithm
+kmedoids = Clustering(k=5, algorithm_variant="kmedoids")
+
+# Fit the data
+kmedoids.fit(X)
+
+# Plot the final partition of the data
+kmedoids.plot(X)
+```
+![](images/clustering_plot_kmedoids.png)
+
+```
+# Generate GIF
+kmedoids.create_gif(X)
+```
+![](images/kmedoids.gif)
+
+### c-means
+```
+# Create an instance of Clustering class with k=5 and use C-means algorithm
+cmeans = Clustering(k=5, algorithm_variant="cmeans")
+
+# Fit the data
+cmeans.fit(X)
+
+# Plot the final partition of the data
+cmeans.plot(X)
+```
+![](images/clustering_plot_cmeans.png)
+
+```
+# Generate GIF
+cmeans.create_gif(X)
+```
+![](images/cmeans.gif)
+
