@@ -52,6 +52,12 @@ clustering.time()
 
 `Running time: 0.0523 seconds `
 
+```
+clustering.scree_test(X, max_k=10)
+```
+
+![](images/scree_test.png)
+
 ## Example
 
 You can also specify the algorithm variant to use when creating an instance of the Clustering class.
@@ -112,14 +118,14 @@ kmedoids = Clustering(k=5, algorithm_variant="kmedoids")
 kmedoids.fit(X)
 
 # Plot the final partition of the data
-kmedoids.plot(X)
+kmedoids.plot(X, cool=True)
 ```
 
 ![](images/kmedoids.png)
 
 ```
 # Generate GIF
-kmedoids.create_gif(X)
+kmedoids.create_gif(X, cool=True)
 ```
 
 _Note: To view the GIF in motion, click on it to open in a separate window._
@@ -135,16 +141,15 @@ cmeans = Clustering(k=5, algorithm_variant="cmeans")
 cmeans.fit(X)
 
 # Plot the final partition of the data
-cmeans.plot(X)
+cmeans.plot(X, cool=True)
 ```
 
 ![](images/cmeans.png)
 
 ```
 # Generate GIF
-cmeans.create_gif(X)
+cmeans.create_gif(X, cool=True)
 ```
 
 _Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/cmeans.gif)
-
