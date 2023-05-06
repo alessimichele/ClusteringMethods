@@ -1,6 +1,6 @@
 # Clustering Class
 
-Clustering is a Python class that implements flat clustering algorithms from scratch. The code for the algorithms is inside the src folder, while the Clustering class contains the call for the algorithm and other plot methods (plot the output, plot the history of the iteration, generate a gif of the iterations).
+The Clustering class in Python is a self-contained implementation of flat clustering algorithms that is built from scratch. The source code for these algorithms is stored in the src folder, while the Clustering class itself includes the function call for the algorithm, as well as several plotting methods for visualizing the output. These plotting methods include generating plots of the algorithm output, plotting the iteration history, and creating a gif of the iterations.
 
 The implemented clustering algorithms are:
 
@@ -153,3 +153,9 @@ cmeans.create_gif(X, cool=True)
 
 _Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/cmeans.gif)
+
+
+Author: Michele Alessi
+Email: alessimichele00@yahoo.it
+Affiliation: MSc in Data Science and Scientific Computing, University of Trieste
+
