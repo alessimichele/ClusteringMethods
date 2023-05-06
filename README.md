@@ -51,8 +51,8 @@ clustering.time()
 ```
 `Running time: 0.0523 seconds `
 
-You can also specify the algorithm variant to use when creating an instance of the Clustering class. 
 ## Example
+You can also specify the algorithm variant to use when creating an instance of the Clustering class. 
 
 ### k-means
 ```
@@ -67,6 +67,12 @@ kmeans.plot(X)
 ```
 ![](images/clustering_plot_kmeans.png)
 
+```
+# Generate GIF
+kmeans.create_gif(X)
+```
+![](images/kmeans.gif)
+
 ### k-means++
 ```
 # Create an instance of Clustering class with k=5 and use K-means++ algorithm
@@ -79,6 +85,12 @@ kmeanspp.fit(X)
 kmeanspp.plot(X)
 ```
 ![](images/clustering_plot_kmeanspp.png)
+
+```
+# Generate GIF
+kmeanspp.create_gif(X)
+```
+![](images/kmeanspp.gif)
 
 ### k-medoids
 ```
@@ -93,6 +105,12 @@ kmedoids.plot(X)
 ```
 ![](images/clustering_plot_kmedoids.png)
 
+```
+# Generate GIF
+kmedoids.create_gif(X)
+```
+![](images/kmedoids.gif)
+
 ### c-means
 ```
 # Create an instance of Clustering class with k=5 and use C-means algorithm
@@ -106,23 +124,9 @@ cmeans.plot(X)
 ```
 ![](images/clustering_plot_cmeans.png)
 
+```
+# Generate GIF
+cmeans.create_gif(X)
+```
+![](images/cmeans.gif)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![](kmeans.gif)
