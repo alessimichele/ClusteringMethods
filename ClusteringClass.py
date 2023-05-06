@@ -6,11 +6,11 @@ from ipywidgets import interactive, IntSlider
 import os
 import imageio
 import time
-from kmeans import _kmeans
-from kmeanspp import _kmeansplusplus
-from kmedoids import _kmedoids
-from kmedoidspp import _kmedoidsplusplus
-from cmeans_naive import _cmeans
+from src.kmeans import _kmeans
+from src.kmeanspp import _kmeansplusplus
+from src.kmedoids import _kmedoids
+from src.kmedoidspp import _kmedoidsplusplus
+from src.cmeans_naive import _cmeans
 
 
 class Clustering:
