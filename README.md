@@ -155,7 +155,7 @@ _Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/cmeans.gif)
 
 
-Author: Michele Alessi
-Email: alessimichele00@yahoo.it
+Author: Michele Alessi \
+Email: alessimichele00@yahoo.it \
 Affiliation: MSc in Data Science and Scientific Computing, University of Trieste
 
