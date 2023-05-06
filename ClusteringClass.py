@@ -217,7 +217,7 @@ class Clustering:
     ############# Plot Methods ####################################
     ###############################################################
 
-    def plot(self, X, cool=False):
+    def plot(self, X, cool=False, save=False):
         """
         Plots the input data with cluster centers using scatter plots.
 
@@ -259,6 +259,9 @@ class Clustering:
         plt.title(
             f"Algorithm: {self.algorithm_variant}. log-Loss: {np.log(self.loss)}. Iterations: {self.n_iterations}"
         )
+        if save is True:
+            plt.savefig(os.path.join("images", f"{self.algorithm_variant}.png"))
+
         plt.show()
         plt.style.use("default")
 
@@ -377,7 +380,11 @@ class Clustering:
             images.append(imageio.imread(f"iterations/iteration_{i+1}.png"))
 
         # Use imageio to create GIF from list of images
-        imageio.mimsave("kmeans.gif", images, duration=duration)
+        imageio.mimsave(
+            os.path.join("images", f"{self.algorithm_variant}.gif"),
+            images,
+            duration=duration,
+        )
         plt.style.use("default")
 
     def set_to_zero(self):
