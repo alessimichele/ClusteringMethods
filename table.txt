@@ -1,6 +1,0 @@
- Algorithm Running Time (s)
-0 kmeans 0.051920
-1 kmeans++ 0.038831
-2 kmedoids 0.648980
-3 kmedoids++ 0.751786
-4 cmeans 0.391765
