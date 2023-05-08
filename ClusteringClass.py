@@ -397,6 +397,8 @@ class Clustering:
         self.n_iterations = 0
         self.C_history = None
         self.z_history = None
+        self.U = None
+        self.TIME = None
 
     def time(self):
         """
