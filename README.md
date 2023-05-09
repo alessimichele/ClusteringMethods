@@ -26,7 +26,7 @@ The Clustering class has the following attributes:
 ## Installation
 
 Clone the repository:
-`git clone https://github.com/your_username/clustering.git`
+`git clone https://github.com/your_username/ClusteringMethods.git`
 
 ## Usage
 
@@ -154,8 +154,6 @@ cmeans.create_gif(X, cool=True)
 _Note: To view the GIF in motion, click on it to open in a separate window._
 ![](images/cmeans.gif)
 
-
 Author: Michele Alessi \
 Email: alessimichele00@yahoo.it \
 Affiliation: MSc in Data Science and Scientific Computing, University of Trieste
-
