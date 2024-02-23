@@ -14,6 +14,7 @@
 	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
 	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
+	<img src="https://img.shields.io/badge/Matplotlib-013243.svg?style=flat&logo=Python&logoColor=white" alt="Matplotlib">
 </p>
 <hr>
 
