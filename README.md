@@ -1,3 +1,23 @@
+<p align="center">
+    <h1 align="center">Clustering Methods</h1>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/alessimichele/ClusteringMethods?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/alessimichele/ClusteringMethods?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/alessimichele/ClusteringMethods?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/alessimichele/ClusteringMethods?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white" alt="Jupyter">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/NumPy-013243.svg?style=flat&logo=NumPy&logoColor=white" alt="NumPy">
+</p>
+<hr>
+
+
 # Clustering Class
 
 The Clustering class in Python is a self-contained implementation of flat clustering algorithms that is built from scratch. The source code for these algorithms is stored in the src folder, while the Clustering class itself includes the function call for the algorithm, as well as several plotting methods for visualizing the output. These plotting methods include generating plots of the algorithm output, plotting the iteration history, and creating a gif of the iterations.
